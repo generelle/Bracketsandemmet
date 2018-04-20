@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Using Emmet for html and css</title>
+    <style>
+        background: #fff;
+        background-image: url();
+    </style>
 </head>
 <body>
-    <h1>Visit <a href="https:\\Emmet.io" target="#" > Emmet.io  </a> or <a href="https://docs.emmet.io/" target="#"> Doccuments</a></h1>
+    <h1>Visit <a href="https:\\Emmet.io" target="#" > Emmet.io  </a> or <a href="https://docs.emmet.io/" target="#"> Doccuments</a> <a href="https://docs.emmet.io/cheat-sheet/" target="#">Cheat cheat for html and css</a></h1>
     <h3>Emmet is a web-developer’s toolkit that can greatly improve your HTML & CSS workflow</h3>
     <h2>With Ultra-fast coding</h2>
     <p>Using Emmet you can quickly write a bunch of code, wrap code with new tags, quickly traverse and select important code parts and more!</p>
@@ -44,8 +48,55 @@
          <li class="li_list">item<a href=""></a></li>
          <li class="li_list">item<a href=""></a></li>
      </ul>
+     <p>Adding multiply classes</p>
+     <!-- div[class="class $"]*4-->
+     <div class="class 1"></div>
+     <div class="class 2"></div>
+     <div class="class 3"></div>
+     <div class="class 4"></div>
+     <p>or</p>    
+      <!-- div[class="first $ second $"]*4-->
+      <div class="first 1 second1">item</div>
+      <div class="first 2 second2">item</div>
+      <div class="first 3 second3">item</div>
+      <div class="first 4 second4">item</div>
+     <br>
      <p>Give id to the div</p>
-     <!--- -->
+     <!--- div#div1 -->
      <div id="div1"> </div>
+     <p>multiply ID</p>
+     <!--  div#id$*5 -->
+     <div id="id1">item</div>
+     <div id="id2">item</div>
+     <div id="id3">item</div>
+     <div id="id4">item</div>
+     <div id="id5">item</div>
+     <p>Or</p>
+     <!--div[ID="first$ second $"]*4-->
+      <div ID="first1 second 1">item</div>
+      <div ID="first2 second 2">item</div>
+      <div ID="first3 second 3">item</div>
+      <div ID="first4 second 4">item</div>
+      
+      <h1>CSS in emmet</h1>
+     <p>bg and click tab=backgroud </p>
+     <p>bgi and click tab= the image background </p>
+     
+     <p> Generate lorem ipsum </p>
+    <!-- 
+    (Header>nav.navigation>ul>li*4>a{Item $})+aside.sidebar+article.mainContent>lorem50^footer>{copyright &copy;2018}--> 
+    <Header>
+        <nav class="navigation">
+            <ul>
+                <li><a href="">Item 1</a></li>
+                <li><a href="">Item 2</a></li>
+                <li><a href="">Item 3</a></li>
+                <li><a href="">Item 4</a></li>
+            </ul>
+        </nav>
+    </Header>
+    <aside class="sidebar"></aside>
+    <article class="mainContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, eos. Quis voluptate aut quas repellendus eveniet laudantium, quo voluptatum. Aperiam nulla accusamus corporis minima quaerat eaque dolorem tenetur cum rem dolore impedit quis natus necessitatibus vel pariatur unde, fugit asperiores ab, ducimus est iure dolor. Eum reiciendis earum molestiae placeat!</article>
+    <footer>copyright &copy;2018</footer>
 </body>
 </html>
