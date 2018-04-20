@@ -1,2 +1,2 @@
 # Bracketsandemmet
-quick intro to using Emmet in brackets for html and css
+Quick intro to using Emmet in brackets for html and css
